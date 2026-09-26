@@ -6,22 +6,17 @@ Arduino LED Blinking with Serial QA Status Logging
 ## Academic activity
 MIT Academy of Engineering â€” Project Management, Activity 2 (CO2)
 
-## Purpose
-This repository demonstrates a traceable QA workflow for an embedded-system example using GitHub Issues, branches, commits, Pull Requests, a Project board, and a Wiki.
+## Live repository
+https://github.com/PratikBhosale-07/Arduino-LED-Blinking-QA
 
-## Hardware
-- Arduino Uno (or compatible board)
-- Built-in LED on digital pin 13, or external LED with suitable resistor
-- USB cable
-
-## Repository structure
-- `src/LED_Blinking_QA_Baseline.ino` â€” intentionally imperfect baseline
-- `src/LED_Blinking_QA.ino` â€” working file corrected progressively through QA fixes
-- `docs/QA_Test_Cases.md` â€” QA test cases and acceptance criteria
-- `.github/ISSUE_TEMPLATE/qa-bug.md` â€” reusable QA issue template
+## GitHub evidence
+- Issues: https://github.com/PratikBhosale-07/Arduino-LED-Blinking-QA/issues
+- Pull Requests: https://github.com/PratikBhosale-07/Arduino-LED-Blinking-QA/pulls
+- Wiki: https://github.com/PratikBhosale-07/Arduino-LED-Blinking-QA/wiki
+- Project board: https://github.com/users/PratikBhosale-07/projects/1
 
 ## QA lifecycle
-Issue -> root cause -> branch -> commit -> Pull Request -> review/comment -> merge -> verification -> close.
+Issue -> root cause -> branch -> commit -> Pull Request -> secondary-account review/comment -> merge -> verification -> close.
 
 ## Expected final behaviour
 1. LED ON for approximately 1 second.
@@ -29,5 +24,12 @@ Issue -> root cause -> branch -> commit -> Pull Request -> review/comment -> mer
 3. Serial Monitor at 9600 baud.
 4. Serial output reports the actual LED state.
 
-## Academic evidence note
-Repository URLs, issue/PR numbers, screenshots, dates and physical test observations must be populated from the actual execution of the activity. No fabricated evidence is included.
+## Repository structure
+- src/LED_Blinking_QA_Baseline.ino â€” intentionally imperfect baseline
+- src/LED_Blinking_QA.ino â€” corrected implementation after four QA fixes
+- docs/QA_Test_Cases.md â€” QA test cases
+- docs/EVIDENCE_CHECKLIST.md â€” screenshot/evidence checklist
+- .github/ISSUE_TEMPLATE/qa-bug.md â€” reusable issue template
+
+## Important academic note
+The secondary GitHub account is used to demonstrate a reviewer/collaboration workflow. It is not described as a different human in the report. Physical testing, screenshots, dates and any geo-tagged photo remain the student's responsibility.
