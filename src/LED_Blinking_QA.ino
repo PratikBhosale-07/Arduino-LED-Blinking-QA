@@ -1,5 +1,6 @@
-// Activity 2 intermediate version after Issue #1 fix
+// Activity 2 intermediate version after Issues #1 and #2 fixes
 const int LED_PIN = 13;
+const unsigned long BLINK_INTERVAL_MS = 1000;
 
 void setup() {
   pinMode(LED_PIN, OUTPUT);
@@ -8,9 +9,9 @@ void setup() {
 
 void loop() {
   digitalWrite(LED_PIN, HIGH);
-  delay(1000);
+  delay(BLINK_INTERVAL_MS);
 
   digitalWrite(LED_PIN, LOW);
   Serial.println("LED ON");      // ISSUE #3 remains
-  delay(2000);                   // ISSUE #2 remains
+  delay(BLINK_INTERVAL_MS);
 }
